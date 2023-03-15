@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display:grid;
+    place-items:center;
+    height: 100vh;
+    width:100vw;
+    background-color:#5f2f14;
+}
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color:#5f2f14;
+    /* background: linear-gradient( to top, rgba(0, 0, 0, 0.212)50%  , rgba(0, 0, 0, 0.212)50% ); */
+    border: 2px solid #eadb9d;
+    padding: 2rem;
+    font-size: 3rem;
+    /* width:  30rem;; */
+    /* height: 30rem; */
+
+ 
+}
+.contact-form h2{
+    font-size: 4rem;
+    margin-top: 0;
+  }
+
+input{
+    width: 20rem;
+    height: 3rem;
+    margin-top: .6rem; 
+    margin-bottom: 2rem;
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #eadb9d;
+    font-size: 1.2rem;
+
+  }
